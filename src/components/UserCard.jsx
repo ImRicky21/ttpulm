@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import user from '../assets/User.png'
-import Blob from './Blob.jsx'
+import Blob from './Blob'
 export default function UserCard({position, nidn, username}){
     return(
         <>

@@ -4,7 +4,7 @@ import 'aos/dist/aos.css'
 import { Component,  } from "react";
 import UserList from "../components/UserList.jsx";
 import WaveDown from "../components/WaveDown.jsx";
-import WaveUp from "../components/WaveUp";
+import WaveUp from "../components/WaveUp.jsx";
 import JumlahMahasiswa from "../components/JumlahMahasiswa.jsx";
 import getUserData from "./Data";
 import SistemInformasi from "../components/SistemInformasi.jsx";

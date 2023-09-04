@@ -3,13 +3,13 @@ import { path } from './utils/path';
 import KataSambutan from './pages/KataSambutan';
 import LatarBelakang from './pages/LatarBelakang';
 import VisidanMisi from './pages/VisidanMisi';
-import DosenDanTenaga from './pages/DosenDanTenaga';
+import DosenDanTenaga from './pages/DosenDanTenaga.jsx';
 import Home from './pages/Home';
-import NotFound from './pages/404NotFound';
-import StrukturOrganisasi from './pages/StrukturOrganisasi';
+import NotFound from './pages/404NotFound.jsx';
+import StrukturOrganisasi from './pages/StrukturOrganisasi.jsx';
 import Aos from 'aos';
-import NavbarMenu from './components/NavbarMenu';
-import Footer from './components/FooterCredential';
+import NavbarMenu from './components/NavbarMenu.jsx';
+import Footer from './components/FooterCredential.jsx';
 //get data useState
 // import dataUser from './service/Api';
 // import React, { useState } from 'react';

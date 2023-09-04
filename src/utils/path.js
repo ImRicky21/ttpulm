@@ -6,6 +6,4 @@ export const path = {
     visidanmisi:'/visi-dan-misi',
     strukturorganisasi:'/struktur-organisasi',
     dosendantenaga:'/Dosen-dan-tenaga-kependidikan'
-
-
 };
