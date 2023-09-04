@@ -1,12 +1,12 @@
 import { Route, Routes } from 'react-router-dom';
 import { path } from './utils/path';
-import KataSambutan from './pages/kataSambutan';
-import LatarBelakang from './pages/latarBelakang';
-import VisiDanMisi from './pages/visidanmisi';
-import DosenDanTenaga from './pages/dosenDanTenaga';
+import KataSambutan from './pages/KataSambutan';
+import LatarBelakang from './pages/LatarBelakang';
+import VisiDanMisi from './pages/VisidanMisi';
+import DosenDanTenaga from './pages/DosenDanTenaga';
 import Home from './pages/Home';
 import NotFound from './pages/404NotFound';
-import StrukturOrganisasi from './pages/strukturOrganisasi';
+import StrukturOrganisasi from './pages/StrukturOrganisasi';
 import Aos from 'aos';
 import NavbarMenu from './components/NavbarMenu';
 import Footer from './components/FooterCredential';
