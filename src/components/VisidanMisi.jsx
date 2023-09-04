@@ -1,4 +1,4 @@
-export default function VisidanMisiTp() {
+export default function VisidanMisi() {
     return(
            <>
             <div className="flex \">

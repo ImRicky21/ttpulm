@@ -1,14 +1,14 @@
-import ProfileTP from "../components/ProfileTP";
+import ProfileTP from "../components/ProfileTP.jsx";
 // import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { Component,  } from "react";
-import UserList from "../components/UserList";
-import WaveDown from "../components/WaveDown";
+import UserList from "../components/UserList.jsx";
+import WaveDown from "../components/WaveDown.jsx";
 import WaveUp from "../components/WaveUp";
-import JumlahMahasiswa from "../components/JumlahMahasiswa";
+import JumlahMahasiswa from "../components/JumlahMahasiswa.jsx";
 import getUserData from "./Data";
-import SistemInformasi from "../components/SistemInformasi";
-import VisiKeilmuan from "../components/VisiKeilmuan";
+import SistemInformasi from "../components/SistemInformasi.jsx";
+import VisiKeilmuan  from "../components/VisiKeilmuan.jsx";
 
 
 export default class Home extends Component{

@@ -1,4 +1,4 @@
-import VisidanMisiTp from "../components/VisidanMisiTp";
+import VisidanMisiTp from "../components/VisidanMisi.jsx";
 
 export default function VisiDanMisi() {
     return(
