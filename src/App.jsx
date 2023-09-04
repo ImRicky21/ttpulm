@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import { path } from './utils/path';
 import KataSambutan from './pages/KataSambutan';
 import LatarBelakang from './pages/LatarBelakang';
-import VisiDanMisi from './pages/VisidanMisi';
+import VisidanMisi from './pages/VisidanMisi';
 import DosenDanTenaga from './pages/DosenDanTenaga';
 import Home from './pages/Home';
 import NotFound from './pages/404NotFound';
@@ -38,7 +38,7 @@ function App(){
         <Route path={root} element={<Home/>}/>
         <Route path={latarbelakang} element={<LatarBelakang/>}/>
         <Route path={katasambutan} element={<KataSambutan/>}/>
-        <Route path={visidanmisi} element={<VisiDanMisi/>}/>
+        <Route path={visidanmisi} element={<VisidanMisi/>}/>
         <Route path={dosendantenaga} element={<DosenDanTenaga/>}/>
         <Route path={strukturorganisasi} element={<StrukturOrganisasi/>}/>
         <Route/>
