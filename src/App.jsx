@@ -38,8 +38,8 @@ function App(){
         <Route path={root} element={<Home/>}/>
         <Route path={latarbelakang} element={<LatarBelakang/>}/>
         <Route path={katasambutan} element={<KataSambutan/>}/>
-        <Route path={visidanmisi} element={<VisidanMisi/>}/>
         <Route path={dosendantenaga} element={<DosenDanTenaga/>}/>
+        <Route path={visidanmisi} element={<VisidanMisi/>}/>
         <Route path={strukturorganisasi} element={<StrukturOrganisasi/>}/>
         <Route/>
         <Route/>

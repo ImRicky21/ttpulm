@@ -9,6 +9,7 @@ import JumlahMahasiswa from "../components/JumlahMahasiswa.jsx";
 import getUserData from "./Data";
 import SistemInformasi from "../components/SistemInformasi.jsx";
 import VisiKeilmuan  from "../components/VisiKeilmuan.jsx";
+import Fasilitas from "../components/Fasilitas.jsx";
 
 
 export default class Home extends Component{
@@ -38,6 +39,10 @@ export default class Home extends Component{
                    <SistemInformasi/>
                    <WaveDown className="mt-0"/>   
                     <VisiKeilmuan/>
+                    <div>
+                    <WaveUp/>
+                    <Fasilitas/>
+                    </div>
               
    
             </div>

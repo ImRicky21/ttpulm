@@ -1,10 +1,7 @@
-import VisidanMisiTp from "../components/VisidanMisi.jsx";
-
-export default function VisiDanMisi() {
-    return(
-        <>
-         <h1>ini visiDanMisi</h1>
-         <VisidanMisiTp/>
-        </>
-    )
+export default function VisidanMisi() {
+ return(
+    <div>
+        <h1>hello world</h1>
+    </div>
+ )   
 }
