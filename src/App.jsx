@@ -9,7 +9,7 @@ import StrukturOrganisasi from './pages/StrukturOrganisasi';
 import Aos from 'aos';
 import NavbarMenu from './components/NavbarMenu';
 import Footer from './components/FooterCredential';
-import VisiDanMisi from './pages/VisidanMisi';
+import VisiDanMisi from './pages/VisiDanMisi';
 
 
 const { latarbelakang, root, katasambutan, visidanmisi, strukturorganisasi, dosendantenaga, other } = path;
