@@ -48,18 +48,18 @@ const getUserData = () => ([
         
     },
     {
-        id:"6",
-        nidn:"198012282005012003",
-        username:"Dr. Susanti Sufyadi, S.Pd., M.A",
-        position:"Koordinator Program Studi",
-        image:"../assets/user.png"
-        
-    },
-    {
         id:"7",
         nidn:"-",
         username:"Mawarni Eka Sari, S.Pd",
         position:"Tenaga Kependidikan",
+        image:"../assets/user.png"
+        
+    },
+    {
+        id:"6",
+        nidn:"198012282005012003",
+        username:"Dr. Susanti Sufyadi, S.Pd., M.A",
+        position:"Koordinator Program Studi",
         image:"../assets/user.png"
         
     },

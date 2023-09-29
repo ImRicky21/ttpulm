@@ -1,6 +1,6 @@
 export default function SistemInformasi() {
     return(
-        <div className="">
+        <div className="bg-violet-400">
             <div className="flex flex-col items-center text-center">
                 <div className="py-5 my-8">
                     <h1 className="font-bold text-4xl text-white"> - Sistem Informasi Dan Pelayanan Akademik Mahasiswa - </h1>

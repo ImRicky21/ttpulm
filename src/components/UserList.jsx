@@ -1,5 +1,5 @@
-/* eslint-disable react/prop-types */
 /* eslint-disable react/jsx-key */
+/* eslint-disable react/prop-types */
 import UserCard from "./UserCard.jsx"
 
 export default function UserList({users}) {

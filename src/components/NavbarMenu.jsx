@@ -67,8 +67,12 @@ export default function NavbarMenu() {
                 </a>
             </div>
        <div>
-         <button href="" target="_blank" className="inline-flex items-center bg-violet-900 font-bold border-0 rounded-xl py-2 px-4 text-white">
-           Daftar Ujian Skripsi
+         <button  className="inline-flex items-center bg-violet-900 font-bold border-0 rounded-xl py-2 px-4 text-white">
+           <a href="https://docs.google.com/forms/d/e/1FAIpQLSc-VicJIsmIAM_Yg_IhbgZv0mAbaRDPAcd7KUD6agXVQTCbvw/viewform" target="blank">
+           
+             Daftar Ujian Skripsi
+           
+            </a>
          </button>
        </div>
 

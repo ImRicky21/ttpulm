@@ -1,5 +1,4 @@
 import {BsInstagram, BsWhatsapp, BsYoutube} from 'react-icons/bs'
-
 export default function ProfileTP() {
     return(
         <div className="flex flex-col pb-9 m-10  justify-between sm:flex :flex-row ">

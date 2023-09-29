@@ -10,6 +10,7 @@ import getUserData from "./Data";
 import SistemInformasi from "../components/SistemInformasi.jsx";
 import VisiKeilmuan  from "../components/VisiKeilmuan.jsx";
 import Fasilitas from "../components/Fasilitas.jsx";
+import AlumniAlbum from "../components/AlumniAlbum.jsx";
 
 
 export default class Home extends Component{
@@ -31,7 +32,8 @@ export default class Home extends Component{
                    <WaveDown className="mt-0"/>   
                 <div className="">
                     <UserList
-                    users = {this.state.users}/>
+                    users = {this.state.users}
+                    data-aos="fade-up" data-aos-duration="3000"/>
                </div>   
                <div>
                    <WaveUp/>
@@ -42,6 +44,8 @@ export default class Home extends Component{
                     <div>
                     <WaveUp/>
                     <Fasilitas/>
+                   <WaveDown/>
+                   <AlumniAlbum/>
                     </div>
               
    
