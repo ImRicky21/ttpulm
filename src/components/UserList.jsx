@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-key */
 /* eslint-disable react/prop-types */
 import UserCard from "./UserCard.jsx"
 
@@ -11,6 +10,7 @@ export default function UserList({users}) {
             <div className="flex flex-wrap justify-center" data-aos="fade-up" data-aos-duration="3000">
                 {users.map((user)=>(
                     <UserCard
+                    key={user.id}
                     user = {user.id}
                     position={user.position}
                     username={user.username}

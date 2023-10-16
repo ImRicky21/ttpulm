@@ -5,5 +5,6 @@ export const path = {
     katasambutan:'/kata-sambutan',
     visidanmisi:'/visi-dan-misi',
     strukturorganisasi:'/struktur-organisasi',
-    dosendantenaga:'/Dosen-dan-tenaga-kependidikan'
+    dosendantenaga:'/Dosen-dan-tenaga-kependidikan',
+    kebijakan:'kebijakan',
 };

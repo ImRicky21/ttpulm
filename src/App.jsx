@@ -10,18 +10,21 @@ import Aos from 'aos';
 import NavbarMenu from './components/NavbarMenu';
 import Footer from './components/FooterCredential';
 import VisiDanMisi from './pages/VisiDanMisi';
+import Kebijakan from './pages/Kebijakan';
 
 
-const { latarbelakang, root, katasambutan, visidanmisi, strukturorganisasi, dosendantenaga, other } = path;
+const { latarbelakang, root, katasambutan, visidanmisi, strukturorganisasi, dosendantenaga, other, kebijakan} = path;
 function App(){
   Aos.init()
   
   return(
     <>
-    <header className="sticky z-50 top-0 shadow-md">
+   <header className={`sticky z-50 top-0`}>
       <NavbarMenu/>
-    </header>
-    <div className>
+      </header>
+    
+      
+      <div className=''>
       <Routes>
         <Route path={root} element={<Home/>}/>
         <Route path={latarbelakang} element={<LatarBelakang/>}/>
@@ -29,7 +32,7 @@ function App(){
         <Route path={dosendantenaga} element={<DosenDanTenaga/>}/>
         <Route path={visidanmisi} element={<VisiDanMisi/>}/>
         <Route path={strukturorganisasi} element={<StrukturOrganisasi/>}/>
-        <Route/>
+        <Route path={kebijakan} element={<Kebijakan/>}/>
         <Route/>
         <Route/>
         <Route/>
