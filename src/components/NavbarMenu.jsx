@@ -18,7 +18,7 @@ export default function NavbarMenu() {
             <div className={`trasnsition ease-in-out w-full block relative flex-grow justify-between lg:flex lg:items-center lg:w-auto ${isOpen ? "block" : "hidden"}`}>
             <div className="transition ease-in-out flex flex-col lg:flex-row lg:flex-grow ">
                  <a className=" group mx-3">
-            <a href="#" className="text-slate-950">Profil</a>
+            <a href="/" className="text-slate-950">Profil</a>
             <ul className=" md:absolute transition duration-150 hidden group-hover:block align-middle bg-slate-50 text-gray-800 space-y-2 shadow ">
               <li><Link to="/latar-belakang" className="block transition eas-in-out w-52 p-2 duration-200 delay-200 hover:bg-violet-300">Latar Belakang</Link></li>
               <li><Link to="/kata-sambutan" className="block transition eas-in-out w-52 p-2 duration-200 delay-200 hover:bg-violet-300">Kata Sambutan Koordinator Program Studi</Link></li>
